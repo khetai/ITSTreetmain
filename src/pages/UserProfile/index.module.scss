@@ -1,0 +1,125 @@
+.userProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+
+  h1 {
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 40px;
+  }
+
+  form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+
+    label {
+      margin-bottom: 10px;
+      width: calc(50% - 16px);
+      height: 100%;
+      input {
+        width: 100%;
+        padding: 12px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: #aaa;
+        &::placeholder {
+          color: #ccc;
+        }
+
+        &:focus {
+          border-color: #007bff;
+          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+      }
+    }
+    .profileImg {
+      width: 100%;
+      figure {
+        position: relative;
+        width: 130px;
+        height: 130px;
+        margin: 0 auto;
+        border-radius: 50%;
+        background-color: #ccc;
+        cursor: pointer;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+        border: 2px solid #0056b3;
+      }
+      i {
+        position: absolute;
+        right: 0px;
+        bottom: 5px;
+        color: white;
+        width: 30px;
+        height: 30px;
+        background-color: #0056b3;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+    }
+    .buttons {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+
+      a,
+      button {
+        padding: 12px 24px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        background-color: #0056b3;
+        text-transform: uppercase;
+        border: 1px solid #0056b3;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: #0056b3;
+        background-color: #fff;
+        &:hover {
+          background-color: #0056b3;
+          color: #fff;
+        }
+      }
+      button:hover {
+        background-color: #fff;
+        color: #0056b3;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  label {
+    width: 100% !important;
+  }
+  button,
+  a {
+    width: 100%;
+  }
+}

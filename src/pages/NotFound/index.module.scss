@@ -1,0 +1,41 @@
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  background: #4ca1af;
+  background: -webkit-linear-gradient(to right, #c4e0e5, #4ca1af);
+  background: linear-gradient(to right, #c4e0e5, #4ca1af);
+  padding: 0 20px;
+}
+
+.notFoundContent {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in-out;
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

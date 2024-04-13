@@ -1,0 +1,1423 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "rating": 3,
+      "product_name": "Laptop Computer",
+      "price": 799.99,
+      "img_url": "https://images.pexels.com/photos/18096279/pexels-photo-18096279/free-photo-of-laptop-standing-on-a-wooden-table-at-a-terrace.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "description": {
+        "brand": "TechCo",
+        "displaySize": "6.5 inches",
+        "displayResolution": "1080 x 2340 pixels",
+        "processorType": "Octa-core",
+        "processorSpeed": "2.5 GHz",
+        "internalStorage": "128 GB",
+        "externalStorage": "Expandable up to 512 GB",
+        "mainCamera": "Triple - 48MP (wide), 16MP (ultrawide), 5MP (depth)",
+        "wirelessCharging": true,
+        "operatingSystem": "Android 13",
+        "networks": [
+          "4G LTE",
+          "5G"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "rating": 4,
+      "product_name": "Hiking Backpack",
+      "price": 69.99,
+      "img_url": "https://images.pexels.com/photos/18047302/pexels-photo-18047302/free-photo-of-man-in-hat-and-backpack-hiking-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "description": {
+        "brand": "TechCo",
+        "displaySize": "6.5 inches",
+        "displayResolution": "1080 x 2340 pixels",
+        "processorType": "Octa-core",
+        "processorSpeed": "2.5 GHz",
+        "internalStorage": "128 GB",
+        "externalStorage": "Expandable up to 512 GB",
+        "mainCamera": "Triple - 48MP (wide), 16MP (ultrawide), 5MP (depth)",
+        "wirelessCharging": true,
+        "operatingSystem": "Android 13",
+        "networks": [
+          "4G LTE",
+          "5G"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "rating": 1,
+      "product_name": "Dining Table Set",
+      "price": 499,
+      "img_url": "https://images.pexels.com/photos/5638639/pexels-photo-5638639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "description": {
+        "brand": "TechCo",
+        "displaySize": "6.5 inches",
+        "displayResolution": "1080 x 2340 pixels",
+        "processorType": "Octa-core",
+        "processorSpeed": "2.5 GHz",
+        "internalStorage": "128 GB",
+        "externalStorage": "Expandable up to 512 GB",
+        "mainCamera": "Triple - 48MP (wide), 16MP (ultrawide), 5MP (depth)",
+        "wirelessCharging": true,
+        "operatingSystem": "Android 13",
+        "networks": [
+          "4G LTE",
+          "5G"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "rating": 5,
+      "product_name": "Desk Organizer",
+      "price": 12.99,
+      "img_url": "https://images.pexels.com/photos/5797908/pexels-photo-5797908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "description": {
+        "brand": "TechCo",
+        "displaySize": "6.5 inches",
+        "displayResolution": "1080 x 2340 pixels",
+        "processorType": "Octa-core",
+        "processorSpeed": "2.5 GHz",
+        "internalStorage": "128 GB",
+        "externalStorage": "Expandable up to 512 GB",
+        "mainCamera": "Triple - 48MP (wide), 16MP (ultrawide), 5MP (depth)",
+        "wirelessCharging": true,
+        "operatingSystem": "Android 13",
+        "networks": [
+          "4G LTE",
+          "5G"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "rating": 4,
+      "product_name": "Running Shorts",
+      "price": 24.5,
+      "img_url": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "description": {
+        "brand": "TechCo",
+        "displaySize": "6.5 inches",
+        "displayResolution": "1080 x 2340 pixels",
+        "processorType": "Octa-core",
+        "processorSpeed": "2.5 GHz",
+        "internalStorage": "128 GB",
+        "externalStorage": "Expandable up to 512 GB",
+        "mainCamera": "Triple - 48MP (wide), 16MP (ultrawide), 5MP (depth)",
+        "wirelessCharging": true,
+        "operatingSystem": "Android 13",
+        "networks": [
+          "4G LTE",
+          "5G"
+        ]
+      }
+    }
+  ],
+  "register": {
+    "name": "Venus Matthews",
+    "surname": "Bonner",
+    "username": "kysysohuce",
+    "email": "deresi@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "confirmPassword": "Pa$$w0rd!"
+  },
+  "catalogue": {
+    "data": {
+      "root": [
+        {
+          "id": 22125,
+          "name": "Prosessor (CPU)",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22128,
+          "name": "Ana Plata (MB)",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22134,
+          "name": "Prosessor Soyuducusu (CPU Cooler)",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22150,
+          "name": "Notebook",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22170,
+          "name": "Operativ Yaddaş (RAM)",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22185,
+          "name": "SSD",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22186,
+          "name": "Sərt Disk (HDD)",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22191,
+          "name": "Qrafik Kart (GPU)",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22192,
+          "name": "Qida Bloku (PSU)",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22193,
+          "name": "Korpus (Case)",
+          "type": 1,
+          "isWithoutSerialNumber": true,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22242,
+          "name": "Kompüter Aksessuarları",
+          "type": 1,
+          "isWithoutSerialNumber": true,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22243,
+          "name": "Notebook Aksessuarları",
+          "type": 1,
+          "isWithoutSerialNumber": true,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22265,
+          "name": "Monitor",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22269,
+          "name": "Mikrofon",
+          "type": 1,
+          "isWithoutSerialNumber": true,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22270,
+          "name": "Qulaqlıq və Qulaqcıq",
+          "type": 1,
+          "isWithoutSerialNumber": true,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22271,
+          "name": "Qulaqlıq Stendi",
+          "type": 1,
+          "isWithoutSerialNumber": true,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22272,
+          "name": "Səsucaldan",
+          "type": 1,
+          "isWithoutSerialNumber": true,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22273,
+          "name": "Printer",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 22274,
+          "name": "Şəbəkə Avadanlığı",
+          "type": 1,
+          "isWithoutSerialNumber": false,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 23059,
+          "name": "Kabeller",
+          "type": 1,
+          "isWithoutSerialNumber": true,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        },
+        {
+          "id": 23351,
+          "name": "Service",
+          "type": 1,
+          "isWithoutSerialNumber": true,
+          "isServiceType": false,
+          "parentId": null,
+          "productTypeId": null,
+          "productTypeName": null
+        }
+      ],
+      "children": {
+        "22125": [
+          {
+            "id": 22126,
+            "name": "AMD",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22125,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22127,
+            "name": "Intel",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22125,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22128": [
+          {
+            "id": 22145,
+            "name": "ASRock",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22128,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22146,
+            "name": "ASUS",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22128,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22147,
+            "name": "Biostar",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22128,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22148,
+            "name": "GIGABYTE",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22128,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22149,
+            "name": "MSI",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22128,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22134": [
+          {
+            "id": 22135,
+            "name": "ASUS",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22134,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22136,
+            "name": "BeQuiet!",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22134,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22137,
+            "name": "Cooler Master",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22134,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22138,
+            "name": "Corsair",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22134,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22140,
+            "name": "DarkFlash",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22134,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22141,
+            "name": "DeepCool",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22134,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22142,
+            "name": "Noctua",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22134,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22143,
+            "name": "NZXT",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22134,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22144,
+            "name": "RAMPAGE",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22134,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22150": [
+          {
+            "id": 22151,
+            "name": "ACER",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22150,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22152,
+            "name": "Lenovo",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22150,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22153,
+            "name": "HP ",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22150,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22154,
+            "name": "MSI",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22150,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22155,
+            "name": "ASUS",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22150,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22156,
+            "name": "Macbook",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22150,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22157,
+            "name": "Dell",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22150,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22170": [
+          {
+            "id": 22201,
+            "name": "DDR3 DIMM (Desktop üçün)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22170,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22202,
+            "name": "DDR3 SO-DIMM (Notebook üçün)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22170,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22203,
+            "name": "DDR4 DIMM (Desktop üçün)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22170,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22204,
+            "name": "DDR4 SO-DIMM (Notebook üçün)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22170,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22205,
+            "name": "DDR5 DIMM (Desktop üçün)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22170,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22206,
+            "name": "DDR5 SO-DIMM (Notebook üçün)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22170,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22185": [
+          {
+            "id": 22194,
+            "name": "Daxili SSD (SATA)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22185,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22195,
+            "name": "Daxili SSD (NVMe)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22185,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22197,
+            "name": "Xarici SSD",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22185,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22186": [
+          {
+            "id": 22189,
+            "name": "Daxili HDD (3.5)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22186,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22190,
+            "name": "Daxili HDD (2.5)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22186,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22198,
+            "name": "Xarici HDD",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22186,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22191": [
+          {
+            "id": 22218,
+            "name": "ASRock",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22219,
+            "name": "ASUS",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22222,
+            "name": "EVGA",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22223,
+            "name": "GALAX",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22224,
+            "name": "GIGABYTE",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22226,
+            "name": "PALIT",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22227,
+            "name": "PNY",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22228,
+            "name": "SAPPHIRE",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22229,
+            "name": "MSI",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22230,
+            "name": "NVIDIA",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22231,
+            "name": "ZOTAC",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22279,
+            "name": "AMD",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22191,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22192": [
+          {
+            "id": 22234,
+            "name": "AeroCool",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22192,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22235,
+            "name": "ASUS",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22192,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22236,
+            "name": "DeepCool",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22192,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22237,
+            "name": "MSI",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22192,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22238,
+            "name": "RAMPAGE",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22192,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22239,
+            "name": "Seasonic",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22192,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22240,
+            "name": "ZALMAN",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22192,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23439,
+            "name": "Corsair",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22192,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22193": [
+          {
+            "id": 22207,
+            "name": "AeroCool",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22208,
+            "name": "AIGO",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22209,
+            "name": "ASUS",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22210,
+            "name": "DarkFlash",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22211,
+            "name": "DeepCool",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22212,
+            "name": "GAMEMAX",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22213,
+            "name": "MSI",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22214,
+            "name": "RAMPAGE",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22215,
+            "name": "STRIKER",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22216,
+            "name": "ThermalTake",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22979,
+            "name": "Frontier",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22193,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22242": [
+          {
+            "id": 22244,
+            "name": "Klaviatura (Keyboard)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22242,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22245,
+            "name": "Siçan (Mouse)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22242,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22266,
+            "name": "Siçan Altlığı (Mousepad)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22242,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23057,
+            "name": "Other",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22242,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23063,
+            "name": "Keyboard&mouse Combo",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22242,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22243": [
+          {
+            "id": 22246,
+            "name": "Notebook Çantası (Laptop Bag)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22243,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22247,
+            "name": "Notebook üçün Soyuducu Altlıq (Cooler Stand)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22243,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22248,
+            "name": "Notebook üçün Altlıq (Notebook Stand)",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22243,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22265": [
+          {
+            "id": 22971,
+            "name": "MSI",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22265,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22980,
+            "name": "Striker",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22265,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23399,
+            "name": "AOC",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22265,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23437,
+            "name": "Rampage",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22265,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23438,
+            "name": "HP ",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22265,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22269": [
+          {
+            "id": 23442,
+            "name": "2E ",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22269,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22270": [
+          {
+            "id": 22757,
+            "name": "A4tech",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22270,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23441,
+            "name": "2E ",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22270,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22271": [],
+        "22272": [
+          {
+            "id": 22278,
+            "name": "EDIFIER",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22272,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22273": [
+          {
+            "id": 22295,
+            "name": "Xprinter",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22273,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22976,
+            "name": "Canon",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22273,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22977,
+            "name": "Epson",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22273,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23436,
+            "name": "HP ",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 22273,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "22274": [
+          {
+            "id": 22275,
+            "name": "Modem",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22274,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22276,
+            "name": "Router",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22274,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 22277,
+            "name": "Wireless USB Adapter",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": true,
+            "parentId": 22274,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "23059": [
+          {
+            "id": 23060,
+            "name": "Printer Cable",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 23059,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23061,
+            "name": "Lan Cable",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 23059,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23062,
+            "name": "HDMI Cable",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 23059,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ],
+        "23351": [
+          {
+            "id": 23435,
+            "name": "Batery",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 23351,
+            "productTypeId": null,
+            "productTypeName": null
+          },
+          {
+            "id": 23440,
+            "name": "Other",
+            "type": 1,
+            "isWithoutSerialNumber": true,
+            "isServiceType": false,
+            "parentId": 23351,
+            "productTypeId": null,
+            "productTypeName": null
+          }
+        ]
+      }
+    }
+  },
+  "brands": [
+    "Apple",
+    "Samsung",
+    "Microsoft",
+    "Google",
+    "Sony",
+    "Dell",
+    "HP",
+    "Lenovo",
+    "ASUS",
+    "Acer",
+    "Intel",
+    "NVIDIA",
+    "AMD",
+    "LG",
+    "Canon",
+    "Panasonic",
+    "Adobe",
+    "IBM",
+    "Logitech",
+    "Bose"
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "username": "Alice Johnson",
+      "comment": "This product is amazing! It exceeded my expectations.",
+      "timestamp": "2023-09-18T10:30:00Z",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "username": "Bob Smith",
+      "comment": "I love the design, but it could use some more features.",
+      "timestamp": "2023-09-18T12:45:00Z",
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "username": "Charlie Brown",
+      "comment": "The price is a bit high for my budget, but it looks great.",
+      "timestamp": "2022-01-11T14:15:00Z",
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "username": "David Wilson",
+      "comment": "I've been using this product for a month now, and it's been reliable so far.",
+      "timestamp": "2023-09-18T16:00:00Z",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "username": "Emily Davis",
+      "comment": "The battery life is exceptional, and the camera quality is impressive.",
+      "timestamp": "2023-09-18T17:30:00Z",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "username": "Frank Miller",
+      "comment": "It's a decent product for the price, but I wish it had more storage space.",
+      "timestamp": "2022-05-22T19:20:00Z",
+      "rating": 3
+    },
+    {
+      "id": 7,
+      "username": "Grace Harris",
+      "comment": "I recommend this product to everyone. It's worth every penny!",
+      "timestamp": "2023-09-18T20:50:00Z",
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "username": "Henry Taylor",
+      "comment": "I'm disappointed with this product. It's not worth the price.",
+      "timestamp": "2023-02-18T21:15:00Z",
+      "rating": 2
+    },
+    {
+      "id": 9,
+      "username": "Isabella Clark",
+      "comment": "Avoid this product at all costs. It's terrible.",
+      "timestamp": "2023-05-10T22:10:00Z",
+      "rating": 1
+    }
+  ]
+}

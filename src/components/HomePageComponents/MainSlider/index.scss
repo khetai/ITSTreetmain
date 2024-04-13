@@ -1,0 +1,43 @@
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white;
+}
+.slick-dots li button:before {
+  opacity: 1;
+  color: rgb(206 206 206);
+  font-size: 12px;
+}
+.slick-prev,
+.slick-next {
+  width: auto;
+  height: auto;
+}
+.slick-prev:before {
+  content: "←";
+  font-family: "Font Awesome 5 Free";
+  background: white;
+  border-radius: 50%;
+  color: black;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.slick-next:before {
+  content: "→";
+  font-family: "Font Awesome 5 Free";
+  background: white;
+  border-radius: 50%;
+  color: black;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+

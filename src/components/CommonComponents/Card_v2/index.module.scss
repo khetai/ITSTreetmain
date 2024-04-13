@@ -1,0 +1,157 @@
+.wrapper {
+  padding-bottom: 80px;
+  max-width: 320px;
+  height: 450px;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0;
+  transition: box-shadow 0.5s, transform 0.5s;
+  margin: 12px;
+  &:hover {
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+  }
+  .imgContainer {
+    height: 320px;
+    .iconContainer {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      background-color: white;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      cursor: pointer;
+    }
+    i {
+      font-size: 16px;
+      color: red;
+    }
+    img {
+      width: 320px;
+      height: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+  }
+
+  .container {
+    height: 130px;
+    padding: 4px 16px;
+  }
+  .starsContainer {
+    color: orange;
+    i {
+      cursor: pointer;
+    }
+  }
+  .oldPrice {
+    text-decoration: line-through; /* Add a strikethrough effect for the old price */
+    color: #999; /* You can adjust the color to your preference */
+    margin-right: 5px; /* Add some spacing between the old price and new price */
+  }
+  
+  /* Style for the new price */
+  .newPrice {
+    color: #ff0000; /* Change the color to red, or any color you prefer for the new price */
+    font-weight: bold; /* Make the new price bold, adjust as needed */
+  }
+  .price {
+    font-size: 18px;
+    margin: 8px 0;
+    font-weight: bold;
+  }
+  .product_name {
+    margin: 8px 0;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    // font-family: monospace;
+  }
+  .name {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap;
+  }
+  button {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 16px 8px;
+    height: 50px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+@media (max-width: 1216px) {
+  .wrapper {
+    max-width: 300px;
+    height: 450px;
+    .imgContainer {
+      height: 300px;
+      img {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 100%;
+    width: 200px;
+    height: 350px;
+    margin: auto;
+    .imgContainer {
+      height: 200px;
+      img {
+        width: 100%;
+      }
+    }
+    .container {
+      height: 100px;
+      padding: 8px;
+    }
+  }
+}
+
+.countChanger {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid blue;
+  & > div {
+    cursor: pointer;
+  }
+}

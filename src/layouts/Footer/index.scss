@@ -1,0 +1,47 @@
+footer {
+  .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 170px;
+    img {
+      height: 100px;
+      border-radius: 5px;
+    }
+    nav {
+      display: flex;
+      gap: 10px;
+      div {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: gray;
+        background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122, 153, 217)),
+    color-stop(0.72, rgb(73, 125, 189)),
+    color-stop(0.86, rgb(28, 58, 148))
+  );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    i {
+      font-size: 20px;
+      color: white;
+    }
+  }
+  hr {
+    background-color: rgb(95, 95, 95);
+  }
+  .copyright {
+    min-height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+}

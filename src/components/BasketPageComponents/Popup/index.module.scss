@@ -1,0 +1,123 @@
+.popup_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .popup {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+
+    form {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      & > label {
+        font-size: 16px;
+        font-weight: 600;
+        width: 100%;
+        min-width: 250px;
+      }
+      label:nth-child(1),
+      label:nth-child(2) {
+        width: calc((100% - 16px) / 2);
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+    }
+    .buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 16px;
+      margin-top: 16px;
+      button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: #333;
+        border: 1px solid #333;
+        color: white;
+        &:hover {
+          background-color: black;
+        }
+      }
+    }
+
+    & > i {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 20px;
+      color: var(--color-black);
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      & > li {
+        width: 100%;
+        height: max-content;
+        button {
+          width: 100%;
+          padding: 12px;
+          border-radius: 5px;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          background-color: white;
+          border: 1px solid #5757eb;
+          color: #5757eb;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          &.active,
+          &:hover {
+            background-color: #5757eb;
+            color: white;
+          }
+          &:hover {
+            background-color: color-mix(in srgb, midnightblue, #5757eb);
+          }
+        }
+      }
+    }
+    & > button {
+      width: 100%;
+      padding: 12px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      background-color: #333;
+      border: 1px solid #333;
+      color: white;
+      margin-top: 16px;
+      &:hover {
+        background-color: black;
+      }
+    }
+  }
+}
