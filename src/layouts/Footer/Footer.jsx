@@ -1,9 +1,10 @@
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../../assets/imgs/Logo.jpg";
 import "./index.scss";
-
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
 function Footer() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <footer className="container">
       <div className="social">
@@ -13,24 +14,24 @@ function Footer() {
         <nav>
           <Link>
             <div>
-              <i className="fa-brands fa-instagram"></i>
+              <BsInstagram />
             </div>
           </Link>
           <Link>
             <div>
-              <i className="fa-brands fa-facebook-f"></i>
+              <FaFacebook />
             </div>
           </Link>
           <Link>
             <div>
-              <i className="fa-solid fa-at"></i>
+              <i class="fa-solid fa-at"></i>
             </div>
           </Link>
         </nav>
       </div>
       <hr />
       <div className="copyright">
-        <div >
+        <div>
           Copyright 2023 © <strong>ITSTREET.</strong>
         </div>
       </div>
