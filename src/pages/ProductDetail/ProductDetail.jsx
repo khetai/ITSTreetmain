@@ -31,6 +31,7 @@ function ProductDetail() {
       try {
         const response = await fetch(`${url}Product/` + id);
         const data = await response.json();
+        console.log(data);
         data.productId = data.id;
         setDatum(data);
         setLoaded(true);
@@ -80,7 +81,12 @@ function ProductDetail() {
                 );
               })}
             </div>
-            <span>{(+datum?.price).toFixed(2)}</span>
+            <div className={style.pricePerUnit}>
+              <span className={style.oldPrice}>{datum.price} ₼</span>
+              <span className={style.newPrice}>
+                {((datum.price * datum.discountPrice) / 100).toFixed(2)}₼{" "}
+              </span>
+            </div>
             <p>
               {datum.productLanguages &&
               datum.productLanguages[lang_json[currentLanguage]]

@@ -174,7 +174,7 @@ function Navbar() {
             </Link>
           )}
           {role !== "User" && (
-            <Link to={"/adminpanel/products"}>
+            <Link to={"https://admin.it-street.az/"}>
               <button className={`${style.login}`}>{t("admin")}</button>
             </Link>
           )}

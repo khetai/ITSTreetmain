@@ -24,7 +24,13 @@ function OrderCard({
       <article>
         <h2 className={style.cardName}>
           <span>{Number(pricePerUnit).toFixed(2)} ₼</span>
-          {discount ? <span>{pricePerUnit - discount} ₼</span> : ""}
+          {discount ? (
+            <span>
+              {(pricePerUnit - (pricePerUnit * discount) / 100).toFixed(2)} ₼
+            </span>
+          ) : (
+            ""
+          )}
         </h2>
         <p>
           {product.productLanguages &&

@@ -71,6 +71,22 @@
         color: orange;
       }
     }
+    .oldPrice {
+      text-decoration: line-through; /* Add a strikethrough effect for the old price */
+      color: #999; /* You can adjust the color to your preference */
+      margin-right: 5px; /* Add some spacing between the old price and new price */
+    }
+    
+    /* Style for the new price */
+    .newPrice {
+      color: #ff0000; /* Change the color to red, or any color you prefer for the new price */
+      font-weight: bold; /* Make the new price bold, adjust as needed */
+    }
+    .price {
+      font-size: 18px;
+      margin: 8px 0;
+      font-weight: bold;
+    }
     & > div {
       width: 100%;
       display: flex;

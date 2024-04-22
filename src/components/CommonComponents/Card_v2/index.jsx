@@ -120,7 +120,9 @@ function ProductPrice({ pricePerUnit = 0, discountPrice }) {
   return (
     <div className={style.pricePerUnit}>
       <span className={style.oldPrice}>{pricePerUnit} ₼</span>
-      <span className={style.newPrice}>{pricePerUnit - discountPrice}₼ </span>
+      <span className={style.newPrice}>
+        {(pricePerUnit - (pricePerUnit * discountPrice) / 100).toFixed(2)}₼{" "}
+      </span>
     </div>
   );
 }

@@ -42,7 +42,9 @@ function BasketCard({
         <h2 className={style.cardName}>
           <Link to={`/product/${productId}`} />
           <span className={style.oldPrice}>{price} ₼</span>
-          <span className={style.newPrice}>{price - discountPrice}₼ </span>
+          <span className={style.newPrice}>
+            {(price - (price * discountPrice) / 100).toFixed(2)}₼{" "}
+          </span>
         </h2>
         <p>
           {productLanguages && productLanguages[lang_json[currentLanguage]]
