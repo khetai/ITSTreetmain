@@ -139,12 +139,89 @@
     grid-template-columns: 151px 1fr;
 
     .filterSidebar {
+      width: 40%;
+      .buttons {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 12px;
+        button {
+          width: 50%;
+          padding: 5px 10px;
+          border-radius: 5px;
+          border: 1px solid royalblue;
+          background-color: white;
+          font-size: 16px;
+          transition: all 0.5s;
+          color: royalblue;
+          outline: none;
+          &:hover {
+            background-color: royalblue;
+            color: white;
+          }
+        }
+      }
       .priceRangeBox {
         display: flex;
         flex-wrap: nowrap;
+        input {
+          width: 50%;
+          padding: 0 5px;
+          border-radius: 5px;
+          height: 32px;
+          outline: none;
+          border: 1px solid #ccc;
+          font-size: 18px;
+          transition: all 0.5s;
+          color: black;
+          &:focus {
+            border: 1px solid royalblue;
+          }
+        }
+        button {
+          padding: 8px 16px;
+          border-radius: 5px;
+        }
+      }
+      ul {
+        .main_catalog {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          position: relative;
+          height: 50px;
+          gap: 5px;
+          font-size: 14px;
+          i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 15px;
+            height: 20px;
+            font-size: 14px;
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+            color: #333;
+            z-index: 2;
+            &:hover {
+              color: blue;
+            }
+          }
+        }
+        li {
+          margin-bottom: 15px;
+          .AltCatalog {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 5px 20px;
+          }
+        }
       }
     }
     .filterMain {
+      width: 60%;
       justify-content: center;
       grid-template-columns: auto;
     }
