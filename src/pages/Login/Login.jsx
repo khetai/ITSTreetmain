@@ -120,6 +120,7 @@ function LogInPopUp({ setLogin }) {
 }
 
 function SignInPopUp({ setLogin }) {
+  const url = useSelector(state => state.store.url);
   const { t } = useTranslation();
   const [signInFormData, setSignInFormData] = useState({
     name: "",

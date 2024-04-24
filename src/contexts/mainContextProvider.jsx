@@ -4,11 +4,11 @@ import apiCall from "../helpers/BasketApi";
 import { jwtDecode } from "jwt-decode";
 import usePrivate from "../ServicesRequest/useAxiosPrivate2";
 export const MainContext = createContext();
-
+import { useSelector } from "react-redux";
 export function MainContextProvider({ children }) {
   const { sendRequest } = usePrivate();
   const [user, setUser] = useState(getCookie("token") ? true : null);
-  const [role, setRole] = useState("User");
+  const [role, setRole] = useState();
   const [expire, setExpire] = useState(null);
   const [basket, setBasket] = useState([]);
   const [wishList, setWishList] = useState(
@@ -82,7 +82,7 @@ export function MainContextProvider({ children }) {
     const refreshToken = getCookie("refresh_token");
     try {
       const response = await fetch(
-        `https://apistreet.kursline.az/api/Auth/LoginWithRefreshToken?refreshToken=${refreshToken}`,
+        `https://api.it-street.az/api/Auth/LoginWithRefreshToken?refreshToken=${refreshToken}`,
         {
           method: "POST",
           headers: {

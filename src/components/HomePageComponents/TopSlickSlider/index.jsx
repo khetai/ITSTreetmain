@@ -1,23 +1,27 @@
-import React, { useEffect, useState } from 'react'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import Card_v2 from '../../CommonComponents/Card_v2'
-import style from './index.module.scss'
+import React, { useEffect, useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Card_v2 from "../../CommonComponents/Card_v2";
+import style from "./index.module.scss";
 import { useSelector } from "react-redux";
+import { getProducts } from "../../../services/products";
 function TopSlickSlider({ header }) {
   const url = useSelector(state => state.store.url);
-  const [prodcuts, setProdcuts] = useState([])
-  const [loading, setLoading] = useState(true)
+  const [prodcuts, setProdcuts] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const headers = "accept: */*";
+    const data = getProducts(headers);
+    console.log(data);
     fetch(`${url}Product/GetAllPaginated?page=1&count=10`)
-      .then((res) => res.json())
-      .then((data) => {
-        setProdcuts(data.items)
-        setLoading(false)
-      })
-  }, [])
+      .then(res => res.json())
+      .then(data => {
+        setProdcuts(data.items);
+        setLoading(false);
+      });
+  }, []);
 
   const settings = {
     dots: false,
@@ -52,7 +56,7 @@ function TopSlickSlider({ header }) {
         },
       },
     ],
-  }
+  };
   return (
     <>
       <h2 className={style.header}>{header}</h2>
@@ -61,12 +65,12 @@ function TopSlickSlider({ header }) {
       ) : (
         <Slider {...settings}>
           {prodcuts?.map((data, i) => {
-            return <Card_v2 key={data.id} {...data} />
+            return <Card_v2 key={data.id} {...data} />;
           })}
         </Slider>
       )}
     </>
-  )
+  );
 }
 
-export default TopSlickSlider
+export default TopSlickSlider;

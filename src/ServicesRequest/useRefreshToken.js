@@ -4,9 +4,12 @@ import { setCookie } from "../helpers/cookie";
 const useRefreshToken = () => {
   const token = getCookie("refresh_token");
   const refresh = async () => {
-    const response = await axios.post(`auth/get/refreshtoken/${token}`, {
-      withCredentials: true,
-    });
+    const response = await axios.post(
+      `https://api.it-street.az/api/Auth/LoginWithRefreshToken?refreshToken=${token}`,
+      {
+        withCredentials: true,
+      }
+    );
     //authslice de accesstokeni yenile ve locala vur refresh tokeni
     if (response.ok) {
       setCookie("token", response.data.token, response.data.expires);

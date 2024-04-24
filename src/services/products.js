@@ -1,6 +1,7 @@
 import { get, postJSON } from "./request";
 
-
-export const getProducts = (headers) => get("products",headers)
-export const getProductsById = (id,headers) => get("products/" + id,headers)
-export const postProducts = (data,headers) => postJSON("products", data,headers)
+export const getProducts = headers =>
+  get("Product/GetAllPaginated?page=1&count=10", headers);
+export const getProductsById = (id, headers) => get("Product/" + id, headers);
+export const postProducts = (data, headers) =>
+  postJSON("Product", data, headers);
