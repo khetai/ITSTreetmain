@@ -173,11 +173,11 @@ function Navbar() {
               <button className={`${style.login}`}>{t("Login")}</button>
             </Link>
           )}
-          {role !== "User" && (
+          {/* {role !== "User" && (
             <Link to={"https://admin.it-street.az/"}>
               <button className={`${style.login}`}>{t("admin")}</button>
             </Link>
-          )}
+          )} */}
         </div>
       </div>
       <nav className={`container`}>
